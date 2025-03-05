@@ -123,7 +123,7 @@ const PauseCountdown: React.FC<{
           <>
             <h2 className={`text-6xl font-bold mb-8 ${isDark ? 'text-white' : 'text-black'}`}>Sono in pausa</h2>
             <div className={`text-4xl ${isDark ? 'text-white' : 'text-black'}`}>
-              <div>La tua pausa termina tra:</div>
+              <div>La mia pausa termina tra:</div>
               <div className="mt-6">
                 <span style={{ color: 'oklch(0.592 0.249 0.584)' }} className="text-7xl font-mono font-bold">
                   {minutes}m {seconds.toString().padStart(2, '0')}s
